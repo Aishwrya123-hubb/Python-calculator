@@ -21,7 +21,7 @@ while True:
 
     if option == '5':   #5 is also wrttn as string coz input is strng
         print("Exiting Program...!")
-        break  #we used brk so ve to put n a whileloop
+        break  #we used brk so ve to put n a whileloop;while loop for continuosly run the calcu,The while True: loop ensures that after each calculation, the program asks for input again until the user chooses to exit.
     if option in ('1', '2', '3', '4'):
         num1 = float(input("Enter your first no:"))
         num2 = float(input("Enter your second no:"))
